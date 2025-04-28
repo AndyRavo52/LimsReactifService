@@ -23,5 +23,8 @@ namespace LimsReactifService.Services
 
         // Supprime un réactif
         Task<bool> DeleteReactifAsync(int id);
+
+        // Recherche des réactifs en fonction d'un terme (sur la désignation)
+        Task<IEnumerable<ReactifDto>> SearchReactifsAsync(string searchTerm);
     }
 }

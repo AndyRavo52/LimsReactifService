@@ -14,7 +14,6 @@ namespace LimsReactifService.Controllers
     {
         private readonly IReactifService _reactifService;
 
-        // Injection du service via le constructeur
         public ReactifController(IReactifService reactifService)
         {
             _reactifService = reactifService;
@@ -42,10 +41,7 @@ namespace LimsReactifService.Controllers
             if (position < 1) position = 1;
             if (pageSize < 1) pageSize = 10;
 
-            // Récupère les données paginées
             var reactifs = await _reactifService.GetReactifsAsync(position, pageSize);
-
-            // Calcule les informations de pagination
             int total = await _reactifService.CountReactifsAsync();
             var viewBag = new Dictionary<string, object>
             {
@@ -64,6 +60,22 @@ namespace LimsReactifService.Controllers
                 StatusCode = 200
             });
         }
+
+        // Endpoint de recherche de réactifs
+        [HttpGet("search")]
+public async Task<ActionResult<ApiResponse>> SearchReactifs([FromQuery] string searchTerm = "")
+{
+    var results = await _reactifService.SearchReactifsAsync(searchTerm);
+    return Ok(new ApiResponse
+    {
+        Data = results,
+        ViewBag = null,
+        IsSuccess = true,
+        Message = "Recherche effectuée avec succès.",
+        StatusCode = 200
+    });
+}
+
 
         // Récupère un réactif par son ID
         [HttpGet("{id}")]

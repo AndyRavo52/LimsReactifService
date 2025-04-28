@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LimsReactifService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c917377b4ff1ea8f758347408f926b75fc59d402")]
 [assembly: System.Reflection.AssemblyProductAttribute("LimsReactifService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LimsReactifService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

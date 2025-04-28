@@ -3,80 +3,236 @@
   "WorkspaceRootPath": "D:\\.net\\LimsReactifService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\reactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\reactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\reportreactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\reportreactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\reportreactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\reportreactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\limsreactifservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:limsreactifservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\entreereactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\entreereactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\reactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\reactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\ireportreactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\ireportreactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\reactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\reactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\entreereactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\entreereactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\typesortieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\typesortieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\reportreactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\reportreactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\typessortiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\typessortiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\ientreereactifrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\ientreereactifrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\ireactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\ireactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\reactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\reactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\mappers\\reportreactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\reportreactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\mappers\\typesortiemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\typesortiemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\reportreactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\reportreactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\mappers\\reactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\reactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\typesortiedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\typesortiedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\unitedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\unitedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\mappers\\entreereactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\entreereactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\data\\reactifservicecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:data\\reactifservicecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\entreereactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\entreereactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\entreereactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\entreereactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\sortiereactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\sortiereactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\sortiereactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\sortiereactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\departementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\departementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\sortiereactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\sortiereactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\departementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\departementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\fournisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\fournisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\iuniteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\iuniteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\isortiereactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\isortiereactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\sortiereactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\sortiereactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\idepartementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\idepartementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\fournisseurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\fournisseurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\ifournisseurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\ifournisseurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\mappers\\sortiereactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\sortiereactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\mappers\\departementmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\departementmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\departementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\departementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\objetsortiereactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\objetsortiereactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\objetsortiereactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\objetsortiereactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\objetsortiereactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\objetsortiereactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\typessortiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\typessortiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\mappers\\objetsortiereactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\objetsortiereactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\mappers\\typesortiemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\typesortiemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\iobjetsortiereactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\iobjetsortiereactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\typesortieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\typesortieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\fournisseurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\fournisseurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\itypesortieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\itypesortieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\objetsortiereactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\objetsortiereactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\typesortiedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\typesortiedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\typesortie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\typesortie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\unite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\unite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\mappers\\fournisseurmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\fournisseurmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\fournisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\fournisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\reactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\reactifcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\unitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\unitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\reactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\reactifservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\reactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\reactifdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\mappers\\reactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\reactifmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\dtos\\unitedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:dtos\\unitedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\reactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\reactif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\limsreactifservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:limsreactifservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\unitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\unitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\models\\unite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:models\\unite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\uniteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,20 +243,8 @@
       "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:mappers\\unitemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\limsreactifservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:limsreactifservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\itypesortieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\itypesortieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|d:\\.net\\limsreactifservice\\services\\iuniteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59938C78-A907-4A77-9BEE-54FBAAEF1D3A}|LimsReactifService.csproj|solutionrelative:services\\iuniteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,69 +254,69 @@
       "DocumentGroups": [
         {
           "DockedHeight": 365,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LimsReactifService.http",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\LimsReactifService.http",
-              "RelativeDocumentMoniker": "LimsReactifService.http",
-              "ToolTip": "D:\\.net\\LimsReactifService\\LimsReactifService.http",
-              "RelativeToolTip": "LimsReactifService.http",
+              "DocumentIndex": 0,
+              "Title": "ReportReactifController.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\ReportReactifController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportReactifController.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\ReportReactifController.cs",
+              "RelativeToolTip": "Controllers\\ReportReactifController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-02-28T08:56:10.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReactifService.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\ReactifService.cs",
-              "RelativeDocumentMoniker": "Services\\ReactifService.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\ReactifService.cs",
-              "RelativeToolTip": "Services\\ReactifService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:27:50.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TypesSortieController.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\TypesSortieController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TypesSortieController.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\TypesSortieController.cs",
-              "RelativeToolTip": "Controllers\\TypesSortieController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T09:15:39.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReactifController.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\ReactifController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReactifController.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\ReactifController.cs",
-              "RelativeToolTip": "Controllers\\ReactifController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T07:54:54.829Z",
+              "WhenOpened": "2025-03-26T08:21:22.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReportReactifService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\ReportReactifService.cs",
+              "RelativeDocumentMoniker": "Services\\ReportReactifService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\ReportReactifService.cs",
+              "RelativeToolTip": "Services\\ReportReactifService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:56:27.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IReportReactifService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\IReportReactifService.cs",
+              "RelativeDocumentMoniker": "Services\\IReportReactifService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\IReportReactifService.cs",
+              "RelativeToolTip": "Services\\IReportReactifService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:56:11.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntreeReactifController.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\EntreeReactifController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EntreeReactifController.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\EntreeReactifController.cs",
+              "RelativeToolTip": "Controllers\\EntreeReactifController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:54:14.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.net\\LimsReactifService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\.net\\LimsReactifService\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAWwBMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T09:11:50.881Z",
               "EditorCaption": ""
@@ -183,197 +327,570 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Reactif.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\Reactif.cs",
-              "RelativeDocumentMoniker": "Models\\Reactif.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\Reactif.cs",
-              "RelativeToolTip": "Models\\Reactif.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ReportReactifDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\ReportReactifDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ReportReactifDto.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\ReportReactifDto.cs",
+              "RelativeToolTip": "Dtos\\ReportReactifDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T07:16:07.743Z",
+              "WhenOpened": "2025-03-26T07:47:18.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "IEntreeReactifRService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\IEntreeReactifRService.cs",
+              "RelativeDocumentMoniker": "Services\\IEntreeReactifRService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\IEntreeReactifRService.cs",
+              "RelativeToolTip": "Services\\IEntreeReactifRService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T07:26:11.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntreeReactifService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\EntreeReactifService.cs",
+              "RelativeDocumentMoniker": "Services\\EntreeReactifService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\EntreeReactifService.cs",
+              "RelativeToolTip": "Services\\EntreeReactifService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T07:32:49.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IReactifService.cs",
               "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\IReactifService.cs",
               "RelativeDocumentMoniker": "Services\\IReactifService.cs",
               "ToolTip": "D:\\.net\\LimsReactifService\\Services\\IReactifService.cs",
               "RelativeToolTip": "Services\\IReactifService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T08:27:33.847Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReactifDto.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\ReactifDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\ReactifDto.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\ReactifDto.cs",
-              "RelativeToolTip": "Dtos\\ReactifDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ReportReactifMapper.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\ReportReactifMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\ReportReactifMapper.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Mappers\\ReportReactifMapper.cs",
+              "RelativeToolTip": "Mappers\\ReportReactifMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T07:25:21.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TypeSortieService.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\TypeSortieService.cs",
-              "RelativeDocumentMoniker": "Services\\TypeSortieService.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\TypeSortieService.cs",
-              "RelativeToolTip": "Services\\TypeSortieService.cs",
-              "ViewState": "AgIAAHIAAAAAqPxRp/zpvw8AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:40:02.224Z",
+              "WhenOpened": "2025-03-26T07:52:03.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ReactifMapper.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\ReactifMapper.cs",
-              "RelativeDocumentMoniker": "Mappers\\ReactifMapper.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Mappers\\ReactifMapper.cs",
-              "RelativeToolTip": "Mappers\\ReactifMapper.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwC0AAAAAAAAAAAAAAA==",
+              "Title": "ReportReactif.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\ReportReactif.cs",
+              "RelativeDocumentMoniker": "Models\\ReportReactif.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\ReportReactif.cs",
+              "RelativeToolTip": "Models\\ReportReactif.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:05:49.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TypeSortieDto.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\TypeSortieDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\TypeSortieDto.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\TypeSortieDto.cs",
-              "RelativeToolTip": "Dtos\\TypeSortieDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:38:03.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UniteDto.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\UniteDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\UniteDto.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\UniteDto.cs",
-              "RelativeToolTip": "Dtos\\UniteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:38:21.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TypeSortieMapper.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\TypeSortieMapper.cs",
-              "RelativeDocumentMoniker": "Mappers\\TypeSortieMapper.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Mappers\\TypeSortieMapper.cs",
-              "RelativeToolTip": "Mappers\\TypeSortieMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T13:44:43.734Z",
+              "WhenOpened": "2025-03-26T07:38:00.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "EntreeReactifDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\EntreeReactifDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\EntreeReactifDto.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\EntreeReactifDto.cs",
+              "RelativeToolTip": "Dtos\\EntreeReactifDto.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA9wC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:23:05.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ReactifServiceContext.cs",
               "DocumentMoniker": "D:\\.net\\LimsReactifService\\Data\\ReactifServiceContext.cs",
               "RelativeDocumentMoniker": "Data\\ReactifServiceContext.cs",
               "ToolTip": "D:\\.net\\LimsReactifService\\Data\\ReactifServiceContext.cs",
               "RelativeToolTip": "Data\\ReactifServiceContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAvwBUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T08:46:58.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TypeSortie.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\TypeSortie.cs",
-              "RelativeDocumentMoniker": "Models\\TypeSortie.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\TypeSortie.cs",
-              "RelativeToolTip": "Models\\TypeSortie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "EntreeReactifMapper.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\EntreeReactifMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\EntreeReactifMapper.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Mappers\\EntreeReactifMapper.cs",
+              "RelativeToolTip": "Mappers\\EntreeReactifMapper.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T09:01:06.503Z",
+              "WhenOpened": "2025-03-07T12:51:33.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SortieReactifService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\SortieReactifService.cs",
+              "RelativeDocumentMoniker": "Services\\SortieReactifService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\SortieReactifService.cs",
+              "RelativeToolTip": "Services\\SortieReactifService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:31:58.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DepartementService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\DepartementService.cs",
+              "RelativeDocumentMoniker": "Services\\DepartementService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\DepartementService.cs",
+              "RelativeToolTip": "Services\\DepartementService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:25:45.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SortieReactifController.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\SortieReactifController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SortieReactifController.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\SortieReactifController.cs",
+              "RelativeToolTip": "Controllers\\SortieReactifController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAD4v8IAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:59:21.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DepartementController.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\DepartementController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartementController.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\DepartementController.cs",
+              "RelativeToolTip": "Controllers\\DepartementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:59:38.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EntreeReactif.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\EntreeReactif.cs",
+              "RelativeDocumentMoniker": "Models\\EntreeReactif.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\EntreeReactif.cs",
+              "RelativeToolTip": "Models\\EntreeReactif.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T11:46:19.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Unite.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\Unite.cs",
-              "RelativeDocumentMoniker": "Models\\Unite.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\Unite.cs",
-              "RelativeToolTip": "Models\\Unite.cs",
+              "Title": "SortieReactifDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\SortieReactifDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\SortieReactifDto.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\SortieReactifDto.cs",
+              "RelativeToolTip": "Dtos\\SortieReactifDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA1wCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:14:28.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FournisseurController.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\FournisseurController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FournisseurController.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\FournisseurController.cs",
+              "RelativeToolTip": "Controllers\\FournisseurController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAmwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:45:25.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ISortieReactifService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\ISortieReactifService.cs",
+              "RelativeDocumentMoniker": "Services\\ISortieReactifService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\ISortieReactifService.cs",
+              "RelativeToolTip": "Services\\ISortieReactifService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewBQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:30:28.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SortieReactif.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\SortieReactif.cs",
+              "RelativeDocumentMoniker": "Models\\SortieReactif.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\SortieReactif.cs",
+              "RelativeToolTip": "Models\\SortieReactif.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:00:34.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUniteService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\IUniteService.cs",
+              "RelativeDocumentMoniker": "Services\\IUniteService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\IUniteService.cs",
+              "RelativeToolTip": "Services\\IUniteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:35:13.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IDepartementService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\IDepartementService.cs",
+              "RelativeDocumentMoniker": "Services\\IDepartementService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\IDepartementService.cs",
+              "RelativeToolTip": "Services\\IDepartementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:25:29.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SortieReactifMapper.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\SortieReactifMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\SortieReactifMapper.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Mappers\\SortieReactifMapper.cs",
+              "RelativeToolTip": "Mappers\\SortieReactifMapper.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:20:29.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IFournisseurService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\IFournisseurService.cs",
+              "RelativeDocumentMoniker": "Services\\IFournisseurService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\IFournisseurService.cs",
+              "RelativeToolTip": "Services\\IFournisseurService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:34:46.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FournisseurService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\FournisseurService.cs",
+              "RelativeDocumentMoniker": "Services\\FournisseurService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\FournisseurService.cs",
+              "RelativeToolTip": "Services\\FournisseurService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:37:34.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DepartementMapper.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\DepartementMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\DepartementMapper.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Mappers\\DepartementMapper.cs",
+              "RelativeToolTip": "Mappers\\DepartementMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:20:13.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Departement.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\Departement.cs",
+              "RelativeDocumentMoniker": "Models\\Departement.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\Departement.cs",
+              "RelativeToolTip": "Models\\Departement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:00:50.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DepartementDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\DepartementDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\DepartementDto.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\DepartementDto.cs",
+              "RelativeToolTip": "Dtos\\DepartementDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:13:30.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ObjetSortieReactif.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\ObjetSortieReactif.cs",
+              "RelativeDocumentMoniker": "Models\\ObjetSortieReactif.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\ObjetSortieReactif.cs",
+              "RelativeToolTip": "Models\\ObjetSortieReactif.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:16:25.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TypesSortieController.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\TypesSortieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TypesSortieController.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\TypesSortieController.cs",
+              "RelativeToolTip": "Controllers\\TypesSortieController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAqwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T09:15:39.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ObjetSortieReactifService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\ObjetSortieReactifService.cs",
+              "RelativeDocumentMoniker": "Services\\ObjetSortieReactifService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\ObjetSortieReactifService.cs",
+              "RelativeToolTip": "Services\\ObjetSortieReactifService.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAqwHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:14:25.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ObjetSortieReactifController.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\ObjetSortieReactifController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ObjetSortieReactifController.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\ObjetSortieReactifController.cs",
+              "RelativeToolTip": "Controllers\\ObjetSortieReactifController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:00:50.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ObjetSortieReactifMapper.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\ObjetSortieReactifMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\ObjetSortieReactifMapper.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Mappers\\ObjetSortieReactifMapper.cs",
+              "RelativeToolTip": "Mappers\\ObjetSortieReactifMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:32:22.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TypeSortieMapper.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\TypeSortieMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\TypeSortieMapper.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Mappers\\TypeSortieMapper.cs",
+              "RelativeToolTip": "Mappers\\TypeSortieMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:44:43.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IObjetSortieReactifService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\IObjetSortieReactifService.cs",
+              "RelativeDocumentMoniker": "Services\\IObjetSortieReactifService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\IObjetSortieReactifService.cs",
+              "RelativeToolTip": "Services\\IObjetSortieReactifService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:14:16.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FournisseurDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\FournisseurDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\FournisseurDto.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\FournisseurDto.cs",
+              "RelativeToolTip": "Dtos\\FournisseurDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:13:45.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TypeSortieService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\TypeSortieService.cs",
+              "RelativeDocumentMoniker": "Services\\TypeSortieService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\TypeSortieService.cs",
+              "RelativeToolTip": "Services\\TypeSortieService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAqwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:40:02.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ITypeSortieService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\ITypeSortieService.cs",
+              "RelativeDocumentMoniker": "Services\\ITypeSortieService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\ITypeSortieService.cs",
+              "RelativeToolTip": "Services\\ITypeSortieService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:31:39.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ObjetSortieReactifDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\ObjetSortieReactifDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ObjetSortieReactifDto.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\ObjetSortieReactifDto.cs",
+              "RelativeToolTip": "Dtos\\ObjetSortieReactifDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:22:45.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "TypeSortieDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\TypeSortieDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\TypeSortieDto.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\TypeSortieDto.cs",
+              "RelativeToolTip": "Dtos\\TypeSortieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:38:03.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "TypeSortie.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\TypeSortie.cs",
+              "RelativeDocumentMoniker": "Models\\TypeSortie.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\TypeSortie.cs",
+              "RelativeToolTip": "Models\\TypeSortie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T09:09:59.824Z"
+              "WhenOpened": "2025-02-24T09:01:06.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\.net\\LimsReactifService\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-24T08:40:17.254Z"
+              "DocumentIndex": 44,
+              "Title": "FournisseurMapper.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\FournisseurMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\FournisseurMapper.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Mappers\\FournisseurMapper.cs",
+              "RelativeToolTip": "Mappers\\FournisseurMapper.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4vw8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:46:04.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\.net\\LimsReactifService\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-25T07:41:41.533Z"
+              "DocumentIndex": 45,
+              "Title": "Fournisseur.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\Fournisseur.cs",
+              "RelativeDocumentMoniker": "Models\\Fournisseur.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\Fournisseur.cs",
+              "RelativeToolTip": "Models\\Fournisseur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:05:28.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 46,
+              "Title": "ReactifController.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\ReactifController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReactifController.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\ReactifController.cs",
+              "RelativeToolTip": "Controllers\\ReactifController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:54:54.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
               "Title": "UniteController.cs",
               "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\UniteController.cs",
               "RelativeDocumentMoniker": "Controllers\\UniteController.cs",
               "ToolTip": "D:\\.net\\LimsReactifService\\Controllers\\UniteController.cs",
               "RelativeToolTip": "Controllers\\UniteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T10:40:53.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UniteService.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\UniteService.cs",
-              "RelativeDocumentMoniker": "Services\\UniteService.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\UniteService.cs",
-              "RelativeToolTip": "Services\\UniteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 48,
+              "Title": "ReactifService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\ReactifService.cs",
+              "RelativeDocumentMoniker": "Services\\ReactifService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\ReactifService.cs",
+              "RelativeToolTip": "Services\\ReactifService.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:41:34.477Z"
+              "WhenOpened": "2025-02-28T08:27:50.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 49,
+              "Title": "ReactifDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\ReactifDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ReactifDto.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\ReactifDto.cs",
+              "RelativeToolTip": "Dtos\\ReactifDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA2wBIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:25:21.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ReactifMapper.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\ReactifMapper.cs",
+              "RelativeDocumentMoniker": "Mappers\\ReactifMapper.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Mappers\\ReactifMapper.cs",
+              "RelativeToolTip": "Mappers\\ReactifMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T08:05:49.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\.net\\LimsReactifService\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -385,7 +902,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 52,
+              "Title": "UniteDto.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Dtos\\UniteDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UniteDto.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Dtos\\UniteDto.cs",
+              "RelativeToolTip": "Dtos\\UniteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:38:21.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Reactif.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\Reactif.cs",
+              "RelativeDocumentMoniker": "Models\\Reactif.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\Reactif.cs",
+              "RelativeToolTip": "Models\\Reactif.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:16:07.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LimsReactifService.http",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\LimsReactifService.http",
+              "RelativeDocumentMoniker": "LimsReactifService.http",
+              "ToolTip": "D:\\.net\\LimsReactifService\\LimsReactifService.http",
+              "RelativeToolTip": "LimsReactifService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-28T08:56:10.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\.net\\LimsReactifService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-24T08:40:17.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Unite.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Models\\Unite.cs",
+              "RelativeDocumentMoniker": "Models\\Unite.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Models\\Unite.cs",
+              "RelativeToolTip": "Models\\Unite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T09:09:59.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\.net\\LimsReactifService\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T07:41:41.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UniteService.cs",
+              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\UniteService.cs",
+              "RelativeDocumentMoniker": "Services\\UniteService.cs",
+              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\UniteService.cs",
+              "RelativeToolTip": "Services\\UniteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:41:34.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
               "Title": "UniteMapper.cs",
               "DocumentMoniker": "D:\\.net\\LimsReactifService\\Mappers\\UniteMapper.cs",
               "RelativeDocumentMoniker": "Mappers\\UniteMapper.cs",
@@ -397,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 60,
               "Title": "LimsReactifService.csproj",
               "DocumentMoniker": "D:\\.net\\LimsReactifService\\LimsReactifService.csproj",
               "RelativeDocumentMoniker": "LimsReactifService.csproj",
@@ -406,30 +1007,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-24T13:08:58.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ITypeSortieService.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\ITypeSortieService.cs",
-              "RelativeDocumentMoniker": "Services\\ITypeSortieService.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\ITypeSortieService.cs",
-              "RelativeToolTip": "Services\\ITypeSortieService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAArwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:31:39.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IUniteService.cs",
-              "DocumentMoniker": "D:\\.net\\LimsReactifService\\Services\\IUniteService.cs",
-              "RelativeDocumentMoniker": "Services\\IUniteService.cs",
-              "ToolTip": "D:\\.net\\LimsReactifService\\Services\\IUniteService.cs",
-              "RelativeToolTip": "Services\\IUniteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:35:13.252Z"
             }
           ]
         }

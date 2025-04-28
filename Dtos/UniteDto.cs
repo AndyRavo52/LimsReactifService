@@ -8,6 +8,6 @@ namespace LimsReactifService.Dtos
         public int IdUnite { get; set; }
 
         [JsonPropertyName("designation")]
-        public required  string Designation { get; set; }
+        public   string? Designation { get; set; }
     }
 }

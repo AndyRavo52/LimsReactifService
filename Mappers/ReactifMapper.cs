@@ -12,7 +12,7 @@ namespace LimsReactifService.Mappers
             {
                 IdReactif = reactif.IdReactif,
                 Designation = reactif.Designation,
-                IdTypeSortie = reactif.IdTypeSortie,
+                IdTypeSortie = reactif.IdTypeSortie, 
                 TypeSortie = reactif.TypeSortie != null ? new TypeSortieDto
                 {
                     // Ici, mappez les propriétés spécifiques de TypeSortie selon votre modèle

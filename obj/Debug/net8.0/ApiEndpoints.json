@@ -1,5 +1,479 @@
 [
   {
+    "ContainingType": "LimsReactifService.Controllers.DepartementController",
+    "Method": "GetDepartements",
+    "RelativePath": "api/departements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "position",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.DepartementController",
+    "Method": "GetDepartement",
+    "RelativePath": "api/departements/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.DepartementController",
+    "Method": "GetTotalDepartements",
+    "RelativePath": "api/departements/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.EntreeReactifController",
+    "Method": "GetEntreeReactifs",
+    "RelativePath": "api/entree-reactifs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "position",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.EntreeReactifController",
+    "Method": "CreateEntreeReactif",
+    "RelativePath": "api/entree-reactifs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entreeReactifDto",
+        "Type": "LimsReactifService.Dtos.EntreeReactifDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.EntreeReactifController",
+    "Method": "GetEntreeReactif",
+    "RelativePath": "api/entree-reactifs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.EntreeReactifController",
+    "Method": "UpdateEntreeReactif",
+    "RelativePath": "api/entree-reactifs/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "entreeReactifDto",
+        "Type": "LimsReactifService.Dtos.EntreeReactifDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.EntreeReactifController",
+    "Method": "DeleteEntreeReactif",
+    "RelativePath": "api/entree-reactifs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.EntreeReactifController",
+    "Method": "GetTotalEntreeReactifs",
+    "RelativePath": "api/entree-reactifs/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.FournisseurController",
+    "Method": "GetFournisseurs",
+    "RelativePath": "api/fournisseurs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "position",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.FournisseurController",
+    "Method": "GetFournisseur",
+    "RelativePath": "api/fournisseurs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.FournisseurController",
+    "Method": "GetTotalFournisseurs",
+    "RelativePath": "api/fournisseurs/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ObjetSortieReactifController",
+    "Method": "GetObjetsSortieReactif",
+    "RelativePath": "api/objetSortieReactif",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "position",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ObjetSortieReactifController",
+    "Method": "CreateObjetSortieReactif",
+    "RelativePath": "api/objetSortieReactif",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objetSortieReactifDto",
+        "Type": "LimsReactifService.Dtos.ObjetSortieReactifDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ObjetSortieReactifController",
+    "Method": "GetObjetSortieReactif",
+    "RelativePath": "api/objetSortieReactif/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ObjetSortieReactifController",
+    "Method": "UpdateObjetSortieReactif",
+    "RelativePath": "api/objetSortieReactif/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "objetSortieReactifDto",
+        "Type": "LimsReactifService.Dtos.ObjetSortieReactifDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ObjetSortieReactifController",
+    "Method": "DeleteObjetSortieReactif",
+    "RelativePath": "api/objetSortieReactif/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ObjetSortieReactifController",
+    "Method": "GetTotalObjetsSortieReactif",
+    "RelativePath": "api/objetSortieReactif/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "LimsReactifService.Controllers.ReactifController",
     "Method": "GetReactifs",
     "RelativePath": "api/reactifs",
@@ -133,6 +607,243 @@
     "ContainingType": "LimsReactifService.Controllers.ReactifController",
     "Method": "GetTotalReactifs",
     "RelativePath": "api/reactifs/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ReportReactifController",
+    "Method": "GetReportReactifs",
+    "RelativePath": "api/report-reactif",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "position",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ReportReactifController",
+    "Method": "CreateReportReactif",
+    "RelativePath": "api/report-reactif",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportReactifDto",
+        "Type": "LimsReactifService.Dtos.ReportReactifDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ReportReactifController",
+    "Method": "GetReportReactif",
+    "RelativePath": "api/report-reactif/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ReportReactifController",
+    "Method": "UpdateReportReactif",
+    "RelativePath": "api/report-reactif/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reportReactifDto",
+        "Type": "LimsReactifService.Dtos.ReportReactifDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.ReportReactifController",
+    "Method": "GetTotalReportReactifs",
+    "RelativePath": "api/report-reactif/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.SortieReactifController",
+    "Method": "GetSortieReactifs",
+    "RelativePath": "api/sortie-reactifs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "position",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.SortieReactifController",
+    "Method": "CreateSortieReactif",
+    "RelativePath": "api/sortie-reactifs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sortieReactifDto",
+        "Type": "LimsReactifService.Dtos.SortieReactifDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.SortieReactifController",
+    "Method": "GetSortieReactif",
+    "RelativePath": "api/sortie-reactifs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LimsUtils.Api.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LimsReactifService.Controllers.SortieReactifController",
+    "Method": "GetTotalSortieReactifs",
+    "RelativePath": "api/sortie-reactifs/total",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

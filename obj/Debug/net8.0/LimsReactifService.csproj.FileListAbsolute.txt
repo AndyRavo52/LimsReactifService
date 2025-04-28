@@ -29,6 +29,7 @@ D:\.net\LimsReactifService\obj\Debug\net8.0\LimsReactifService.AssemblyInfo.cs
 D:\.net\LimsReactifService\obj\Debug\net8.0\LimsReactifService.csproj.CoreCompileInputs.cache
 D:\.net\LimsReactifService\obj\Debug\net8.0\LimsReactifService.MvcApplicationPartsAssemblyInfo.cs
 D:\.net\LimsReactifService\obj\Debug\net8.0\LimsReactifService.MvcApplicationPartsAssemblyInfo.cache
+D:\.net\LimsReactifService\obj\Debug\net8.0\LimsReactifService.sourcelink.json
 D:\.net\LimsReactifService\obj\Debug\net8.0\scopedcss\bundle\LimsReactifService.styles.css
 D:\.net\LimsReactifService\obj\Debug\net8.0\staticwebassets.build.json
 D:\.net\LimsReactifService\obj\Debug\net8.0\staticwebassets.development.json
