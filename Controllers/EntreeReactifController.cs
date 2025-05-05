@@ -14,13 +14,11 @@ namespace LimsReactifService.Controllers
     {
         private readonly IEntreeReactifService _entreeReactifService;
 
-        // Injection du service via le constructeur
         public EntreeReactifController(IEntreeReactifService entreeReactifService)
         {
             _entreeReactifService = entreeReactifService;
         }
 
-        // Récupère le nombre total d'entrées de réactifs
         [HttpGet("total")]
         public async Task<ActionResult<ApiResponse>> GetTotalEntreeReactifs()
         {
@@ -35,7 +33,6 @@ namespace LimsReactifService.Controllers
             });
         }
 
-        // Récupère une liste paginée d'entrées de réactifs
         [HttpGet]
         public async Task<ActionResult<ApiResponse>> GetEntreeReactifs(int position = 1, int pageSize = 5)
         {
@@ -62,7 +59,6 @@ namespace LimsReactifService.Controllers
             });
         }
 
-        // Récupère une entrée de réactif par son ID
         [HttpGet("{id}")]
         public async Task<ActionResult<ApiResponse>> GetEntreeReactif(int id)
         {
@@ -89,7 +85,6 @@ namespace LimsReactifService.Controllers
             });
         }
 
-        // Crée une nouvelle entrée de réactif
         [HttpPost]
         public async Task<ActionResult<ApiResponse>> CreateEntreeReactif([FromBody] EntreeReactifDto entreeReactifDto)
         {
@@ -104,7 +99,18 @@ namespace LimsReactifService.Controllers
             });
         }
 
-
-        
+        [HttpGet("depenses/mois/{annee}")]
+        public async Task<ActionResult<ApiResponse>> GetDepensesParMois(int annee)
+        {
+            var depenses = await _entreeReactifService.GetDepensesParMoisAsync(annee);
+            return Ok(new ApiResponse
+            {
+                Data = depenses,
+                ViewBag = null,
+                IsSuccess = true,
+                Message = "Dépenses des réactifs par mois récupérées avec succès.",
+                StatusCode = 200
+            });
+        }
     }
 }
