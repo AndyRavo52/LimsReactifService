@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LimsReactifService.Models
 {
-    [Table("departement")]
+    [Table("Departement")]
     public class Departement
     {
         [Key]

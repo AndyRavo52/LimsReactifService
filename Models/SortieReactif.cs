@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LimsReactifService.Models
 {
-    [Table("sortie_reactif")]
+    [Table("Sortie_reactif")]
     public class SortieReactif
     {
         [Key]

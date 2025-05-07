@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LimsReactifService.Models
 {
-    [Table("entree_reactif")]
+    [Table("Dntree_reactif")]
     public class EntreeReactif
     {
         [Key]
