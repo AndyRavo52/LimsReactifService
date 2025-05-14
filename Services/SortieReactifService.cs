@@ -13,10 +13,12 @@ namespace LimsReactifService.Services
     public class SortieReactifService : ISortieReactifService
     {
         private readonly ReactifServiceContext _context;
+        private readonly IReactifService _reactifService;
 
-        public SortieReactifService(ReactifServiceContext context)
+        public SortieReactifService(ReactifServiceContext context, IReactifService reactifService)
         {
             _context = context;
+            _reactifService = reactifService;
         }
 
         public async Task<int> CountSortieReactifsAsync()
@@ -58,6 +60,17 @@ namespace LimsReactifService.Services
         public async Task<SortieReactifDto> CreateSortieReactifAsync(SortieReactifDto sortieReactifDto)
         {
             var sortieReactif = SortieReactifMapper.ToEntity(sortieReactifDto);
+            ResteStockDto resteStockDto = new ResteStockDto()
+            {
+                IdReactif = sortieReactifDto.IdReactif,
+                DateParam = sortieReactifDto.DateSortie
+            };
+            ResteStock resteStockActuel = await _reactifService.GetResteStockAsync(resteStockDto);
+
+            if(resteStockActuel.Quantite < sortieReactifDto.Quantite)
+            {
+                throw new Exception("Quantité en stock insuffisante");
+            }
             _context.SortieReactif.Add(sortieReactif);
             await _context.SaveChangesAsync();
 
