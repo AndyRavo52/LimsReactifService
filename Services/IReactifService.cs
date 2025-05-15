@@ -28,8 +28,12 @@ namespace LimsReactifService.Services
         // Recherche des réactifs en fonction d'un terme (sur la désignation)
         Task<IEnumerable<ReactifDto>> SearchReactifsAsync(string searchTerm);
         // Nouvelle méthode pour récupérer l'état de stock par mois
+
+        Task<Dictionary<string, double>> GetStockEvolutionAsync(int reactifId, int year);
+
         Task<Dictionary<string, double>> GetStockByMonthAsync(int idReactif, int year);
         Task<ResteStock> GetResteStockAsync(ResteStockDto resteStockDto);
+
 
     }
 }
