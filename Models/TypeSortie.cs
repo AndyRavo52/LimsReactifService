@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LimsReactifService.Models
 {
-    [Table("Type_Sortie")]
+    [Table("Type_sortie")]
     public class TypeSortie
     {
         [Key]
