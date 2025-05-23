@@ -114,7 +114,7 @@ namespace LimsReactifService.Controllers
                     Data = null,
                     ViewBag = null,
                     IsSuccess = false,
-                    Message = $"Erreur lors de la création : {ex.Message}",
+                    Message = ex.Message,
                     StatusCode = 400
                 });
             }

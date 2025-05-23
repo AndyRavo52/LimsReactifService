@@ -3,6 +3,7 @@ using LimsReactifService.Dtos;
 using LimsReactifService.Mappers;
 using LimsReactifService.Models;
 using Microsoft.EntityFrameworkCore;
+using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,7 @@ namespace LimsReactifService.Services
             _context = context;
         }
 
+        // Méthodes existantes inchangées
         public async Task<int> CountReactifsAsync()
         {
             return await _context.Reactifs.CountAsync();
@@ -101,6 +103,7 @@ namespace LimsReactifService.Services
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {
                 query = query.Where(r => EF.Functions.Like(r.Designation, $"{searchTerm}%"));
+                query = query.Where(r => EF.Functions.Like(r.Designation, $"{searchTerm}%"));
             }
 
             var reactifs = await query
@@ -111,7 +114,12 @@ namespace LimsReactifService.Services
         }
 
         public async Task<Dictionary<string, double>> GetStockEvolutionAsync(int reactifId, int year)
+        public async Task<Dictionary<string, double>> GetStockEvolutionAsync(int reactifId, int year)
         {
+            var stockEvolution = new Dictionary<string, double>();
+            double stock = 0;
+
+            // Récupérer les entrées
             var stockEvolution = new Dictionary<string, double>();
             double stock = 0;
 
@@ -119,8 +127,11 @@ namespace LimsReactifService.Services
             var entrees = await _context.EntreeReactifs
                 .Where(er => er.IdReactif == reactifId && er.DateEntree.Year <= year)
                 .OrderBy(er => er.DateEntree)
+                .Where(er => er.IdReactif == reactifId && er.DateEntree.Year <= year)
+                .OrderBy(er => er.DateEntree)
                 .ToListAsync();
 
+            // Récupérer les sorties
             // Récupérer les sorties
             var sorties = await _context.SortieReactif
                 .Where(sr => sr.IdReactif == reactifId && sr.DateSortie.Year <= year)
@@ -131,8 +142,46 @@ namespace LimsReactifService.Services
             var rapports = await _context.ReportReactif
                 .Where(rr => rr.IdReactif == reactifId && rr.DateReport.Year <= year)
                 .OrderBy(rr => rr.DateReport)
+                .Where(sr => sr.IdReactif == reactifId && sr.DateSortie.Year <= year)
+                .OrderBy(sr => sr.DateSortie)
                 .ToListAsync();
 
+            // Récupérer les rapports (inventaires)
+            var rapports = await _context.ReportReactif
+                .Where(rr => rr.IdReactif == reactifId && rr.DateReport.Year <= year)
+                .OrderBy(rr => rr.DateReport)
+                .ToListAsync();
+
+            // Combiner toutes les transactions
+            var transactions = entrees.Select(e => new { Date = e.DateEntree, Quantite = e.Quantite, Type = "Entree" })
+                .Concat(sorties.Select(s => new { Date = s.DateSortie, Quantite = -s.Quantite, Type = "Sortie" }))
+                .Concat(rapports.Select(r => new { Date = r.DateReport, Quantite = r.Quantite, Type = "Rapport" }))
+                .OrderBy(t => t.Date)
+                .ToList();
+
+            // Calculer le stock initial (avant l'année demandée)
+            var transactionsBeforeYear = transactions
+                .Where(t => t.Date.Year < year)
+                .ToList();
+
+            foreach (var t in transactionsBeforeYear)
+            {
+                if (t.Type == "Rapport")
+                {
+                    stock = t.Quantite; // Réinitialiser le stock au dernier rapport
+                }
+                else
+                {
+                    stock += t.Quantite; // Ajouter ou soustraire la quantité
+                }
+            }
+
+            // Traiter les transactions de l'année demandée
+            var transactionsInYear = transactions
+                .Where(t => t.Date.Year == year)
+                .ToList();
+
+            // Parcourir chaque mois de l'année
             // Combiner toutes les transactions
             var transactions = entrees.Select(e => new { Date = e.DateEntree, Quantite = e.Quantite, Type = "Entree" })
                 .Concat(sorties.Select(s => new { Date = s.DateSortie, Quantite = -s.Quantite, Type = "Sortie" }))
@@ -236,6 +285,65 @@ namespace LimsReactifService.Services
             }
 
             return stock >= 0 ? stock : 0; // Retourner 0 si le stock est négatif
+                var endOfMonth = new DateTime(year, month, DateTime.DaysInMonth(year, month));
+                var transactionsThisMonth = transactionsInYear
+                    .Where(t => t.Date.Year == year && t.Date.Month == month)
+                    .ToList();
+
+                // Mettre à jour le stock pour ce mois
+                foreach (var t in transactionsThisMonth)
+                {
+                    if (t.Type == "Rapport")
+                    {
+                        stock = t.Quantite; // Réinitialiser le stock au rapport
+                    }
+                    else
+                    {
+                        stock += t.Quantite; // Ajouter ou soustraire la quantité
+                    }
+                }
+
+                // Ajouter le stock au dictionnaire uniquement si le mois a des transactions ou si le stock est non nul
+                if (transactionsThisMonth.Any() && stock >= 0)
+                {
+                    stockEvolution[$"{year}-{month:D2}"] = stock;
+                }
+            }
+
+            return stockEvolution;
+        }
+
+        public async Task<ResteStock> GetResteStockAsync(ResteStockDto resteStockDto)
+        {
+            using (var command = _context.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = "CALL GetResteStockReactif(@inputDate, @id_smthng)";
+                command.CommandType = System.Data.CommandType.Text;
+
+                var dateParam = new MySqlParameter("@inputDate", MySqlDbType.DateTime) { Value = resteStockDto.DateParam };
+                var idParam = new MySqlParameter("@id_smthng", MySqlDbType.Int32) { Value = resteStockDto.IdReactif };
+                command.Parameters.Add(dateParam);
+                command.Parameters.Add(idParam);
+
+                await _context.Database.OpenConnectionAsync();
+                using (var reader = await command.ExecuteReaderAsync())
+                {
+                    if (await reader.ReadAsync())
+                    {
+                        // Map your ResteStock here manually
+                        var resteStock = new ResteStock
+                        {
+                            Quantite = reader.GetDouble(0),
+                            Unite = reader.GetString(1)
+                        };
+                        return resteStock;
+                    }
+                    else
+                    {
+                        throw new ArgumentException("Réactif non trouvé");
+                    }
+                }
+            }
         }
     }
 }

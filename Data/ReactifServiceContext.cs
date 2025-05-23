@@ -8,7 +8,12 @@ namespace LimsReactifService.Data
     {
         public ReactifServiceContext(DbContextOptions<ReactifServiceContext> options)
             : base(options)
+        {}
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<ResteStock>()
+                .HasNoKey();
         }
 
         public DbSet<TypeSortie> TypesSortie { get; set; }
@@ -20,5 +25,6 @@ namespace LimsReactifService.Data
         public DbSet<SortieReactif> SortieReactif { get; set; }
         public DbSet<Departement> Departement { get; set; }
         public DbSet<ReportReactif> ReportReactif { get; set; }
+        public DbSet<ResteStock> ResteStocks { get; set; }
     }
 }

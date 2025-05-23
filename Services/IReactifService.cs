@@ -1,4 +1,5 @@
-﻿using LimsReactifService.Dtos;
+﻿using LimsReactifService.Models;
+using LimsReactifService.Dtos;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -13,7 +14,12 @@ namespace LimsReactifService.Services
         Task<ReactifDto> UpdateReactifAsync(int id, ReactifDto reactifDto);
         Task<bool> DeleteReactifAsync(int id);
         Task<IEnumerable<ReactifDto>> SearchReactifsAsync(string searchTerm);
+
         Task<Dictionary<string, double>> GetStockEvolutionAsync(int reactifId, int year);
+
+        Task<ResteStock> GetResteStockAsync(ResteStockDto resteStockDto);
+
+
         Task<double> GetCurrentStockAsync(int reactifId); // Nouvelle méthode
     }
 }
