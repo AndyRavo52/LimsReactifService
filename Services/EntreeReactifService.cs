@@ -34,7 +34,7 @@ namespace LimsReactifService.Services
                 .Take(pageSize)
                 .ToListAsync();
 
-            return entreeReactifs.Select(EntreeReactifMapper.ToDto);
+            return entreeReactifs.Select(er => EntreeReactifMapper.ToDto(er!));
         }
 
         public async Task<EntreeReactifDto> GetEntreeReactifByIdAsync(int id)
@@ -50,7 +50,7 @@ namespace LimsReactifService.Services
                 throw new Exception("Entrée réactif non trouvée");
             }
 
-            return EntreeReactifMapper.ToDto(entreeReactif);
+            return EntreeReactifMapper.ToDto(entreeReactif!);
         }
 
         public async Task<EntreeReactifDto> CreateEntreeReactifAsync(EntreeReactifDto entreeReactifDto)
