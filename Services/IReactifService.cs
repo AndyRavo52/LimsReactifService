@@ -33,6 +33,7 @@ namespace LimsReactifService.Services
 
         Task<Dictionary<string, double>> GetStockByMonthAsync(int idReactif, int year);
         Task<ResteStock> GetResteStockAsync(ResteStockDto resteStockDto);
+        Task<ICollection<ResteStock>> GetResteStockGlobal(DateTime date);
 
 
     }
