@@ -30,6 +30,7 @@ namespace LimsReactifService.Services
         // Nouvelle méthode pour récupérer l'état de stock par mois
         Task<Dictionary<string, double>> GetStockByMonthAsync(int idReactif, int year);
         Task<ResteStock> GetResteStockAsync(ResteStockDto resteStockDto);
+        Task<ICollection<ResteStock>> GetResteStockGlobal(DateTime date);
 
     }
 }
