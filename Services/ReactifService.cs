@@ -268,7 +268,6 @@ namespace LimsReactifService.Services
                     }
                 }
             }
-
             return result;
         }
     }
