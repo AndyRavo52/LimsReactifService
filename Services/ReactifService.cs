@@ -8,7 +8,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 namespace LimsReactifService.Services
 {
     public class ReactifService : IReactifService
@@ -20,7 +19,6 @@ namespace LimsReactifService.Services
             _context = context;
         }
 
-        // Méthodes existantes inchangées
         public async Task<int> CountReactifsAsync()
         {
             return await _context.Reactifs.CountAsync();
@@ -195,6 +193,50 @@ namespace LimsReactifService.Services
             return stockEvolution;
         }
 
+        public async Task<double> GetCurrentStockAsync(int reactifId)
+        {
+            double stock = 0;
+
+            // Récupérer toutes les entrées
+            var entrees = await _context.EntreeReactifs
+                .Where(er => er.IdReactif == reactifId)
+                .OrderBy(er => er.DateEntree)
+                .ToListAsync();
+
+            // Récupérer toutes les sorties
+            var sorties = await _context.SortieReactif
+                .Where(sr => sr.IdReactif == reactifId)
+                .OrderBy(sr => sr.DateSortie)
+                .ToListAsync();
+
+            // Récupérer tous les rapports (inventaires)
+            var rapports = await _context.ReportReactif
+                .Where(rr => rr.IdReactif == reactifId)
+                .OrderBy(rr => rr.DateReport)
+                .ToListAsync();
+
+            // Combiner toutes les transactions
+            var transactions = entrees.Select(e => new { Date = e.DateEntree, Quantite = e.Quantite, Type = "Entree" })
+                .Concat(sorties.Select(s => new { Date = s.DateSortie, Quantite = -s.Quantite, Type = "Sortie" }))
+                .Concat(rapports.Select(r => new { Date = r.DateReport, Quantite = r.Quantite, Type = "Rapport" }))
+                .OrderBy(t => t.Date)
+                .ToList();
+
+            // Calculer le stock actuel
+            foreach (var t in transactions)
+            {
+                if (t.Type == "Rapport")
+                {
+                    stock = t.Quantite; // Réinitialiser le stock au dernier rapport
+                }
+                else
+                {
+                    stock += t.Quantite; // Ajouter ou soustraire la quantité
+                }
+            }
+
+            return stock >= 0 ? stock : 0; // Retourner 0 si le stock est négatif
+        }
         public async Task<ResteStock> GetResteStockAsync(ResteStockDto resteStockDto)
         {
             using (var command = _context.Database.GetDbConnection().CreateCommand())
@@ -226,38 +268,7 @@ namespace LimsReactifService.Services
                     }
                 }
             }
-        }
 
-        public async Task<ICollection<ResteStock>> GetResteStockGlobal(DateTime date)
-        {
-            ICollection<ResteStock> resteStocks = new List<ResteStock>();
-            using (var command = _context.Database.GetDbConnection().CreateCommand())
-            {
-                command.CommandText = "CALL GetResteStockEnsembleReactif(@inputDate)";
-                command.CommandType = System.Data.CommandType.Text;
-
-                var dateParam = new MySqlParameter("@inputDate", MySqlDbType.DateTime) { Value = date };
-                command.Parameters.Add(dateParam);
-
-                await _context.Database.OpenConnectionAsync();
-                using (var reader = await command.ExecuteReaderAsync())
-                {
-                    while (await reader.ReadAsync())
-                    {
-                        var resteStock = new ResteStock
-                        {
-                            IdReactif = reader.GetInt32(0),
-                            Designation = reader.GetString(1),
-                            Quantite = reader.GetDouble(2),
-                            Unite = reader.GetString(3),
-                            DateLastreport = reader.IsDBNull(4) ? null : reader.GetDateTime(4)
-                        };
-                        resteStocks.Add(resteStock);
-                    }
-                }
-            }
-
-            return resteStocks;
         }
     }
 }
