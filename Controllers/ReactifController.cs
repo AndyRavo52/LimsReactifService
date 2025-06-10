@@ -176,7 +176,8 @@ namespace LimsReactifService.Controllers
         public async Task<ActionResult<ApiResponse>> GetResteStock([FromBody] ResteStockDto resteStockDto)
         {
             var resteStock = await _reactifService.GetResteStockAsync(resteStockDto);
-            try{
+            try
+            {
                 return Ok(new ApiResponse
                 {
                     Data = resteStock,
@@ -184,7 +185,40 @@ namespace LimsReactifService.Controllers
                     IsSuccess = true,
                 });
             }
-            catch(ArgumentException ex)
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new ApiResponse
+                {
+                    Data = null,
+                    ViewBag = null,
+                    IsSuccess = false,
+                    Message = ex.Message,
+                    StatusCode = 400
+                });
+            }
+        }
+
+        [HttpGet("reste-stock-global")]
+        public async Task<ActionResult<ApiResponse>> GetResteStockGlobal([FromQuery] DateTime? date)
+        {
+            if (date == null)
+            {
+                date = DateTime.Now;
+            }
+            try
+            {
+
+                var resteStocks = await _reactifService.GetResteStockGlobal(date.Value);
+                return Ok(new ApiResponse
+                {
+                    Data = resteStocks,
+                    ViewBag = null,
+                    IsSuccess = true,
+                    Message = "Global stock retrieved successfully.",
+                    StatusCode = 200
+                });
+            }
+            catch (Exception ex)
             {
                 return BadRequest(new ApiResponse
                 {
