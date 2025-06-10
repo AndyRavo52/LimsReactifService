@@ -270,6 +270,7 @@ namespace LimsReactifService.Services
             }
             return result;
         }
+        
         public async Task<ICollection<ResteStock>> GetResteStockGlobal(DateTime date)
         {
             ICollection<ResteStock> resteStocks = new List<ResteStock>();
