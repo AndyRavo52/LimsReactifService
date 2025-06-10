@@ -261,10 +261,5 @@ namespace LimsReactifService.Services
 
             return resteStocks;
         }
-
-        public Task<Dictionary<string, double>> GetStockByMonthAsync(int idReactif, int year)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
