@@ -270,5 +270,37 @@ namespace LimsReactifService.Services
             }
             return result;
         }
+
+        public async Task<ICollection<ResteStock>> GetResteStockGlobal(DateTime date)
+        {
+            ICollection<ResteStock> resteStocks = new List<ResteStock>();
+            using (var command = _context.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = "CALL GetResteStockEnsembleReactif(@inputDate)";
+                command.CommandType = System.Data.CommandType.Text;
+
+                var dateParam = new MySqlParameter("@inputDate", MySqlDbType.DateTime) { Value = date };
+                command.Parameters.Add(dateParam);
+
+                await _context.Database.OpenConnectionAsync();
+                using (var reader = await command.ExecuteReaderAsync())
+                {
+                    while (await reader.ReadAsync())
+                    {
+                        var resteStock = new ResteStock
+                        {
+                            IdReactif = reader.GetInt32(0),
+                            Designation = reader.GetString(1),
+                            Quantite = reader.GetDouble(2),
+                            Unite = reader.GetString(3),
+                            DateLastreport = reader.IsDBNull(4) ? null : reader.GetDateTime(4)
+                        };
+                        resteStocks.Add(resteStock);
+                    }
+                }
+            }
+
+            return resteStocks;
+        }
     }
 }
