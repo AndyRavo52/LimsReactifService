@@ -99,6 +99,48 @@ namespace LimsReactifService.Controllers
             });
         }
 
+        [HttpGet("{id}/stock-evolution")]
+        public async Task<ActionResult<ApiResponse>> GetStockEvolution(int id, [FromQuery] int year)
+        {
+            var stockEvolution = await _reactifService.GetStockEvolutionAsync(id, year);
+            return Ok(new ApiResponse
+            {
+                Data = stockEvolution,
+                ViewBag = null,
+                IsSuccess = true,
+                Message = "Stock evolution retrieved successfully.",
+                StatusCode = 200
+            });
+        }
+
+        [HttpGet("{id}/current-stock")]
+        public async Task<ActionResult<ApiResponse>> GetCurrentStock(int id)
+        {
+            try
+            {
+                var currentStock = await _reactifService.GetCurrentStockAsync(id);
+                return Ok(new ApiResponse
+                {
+                    Data = currentStock,
+                    ViewBag = null,
+                    IsSuccess = true,
+                    Message = "Current stock retrieved successfully.",
+                    StatusCode = 200
+                });
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new ApiResponse
+                {
+                    Data = null,
+                    ViewBag = null,
+                    IsSuccess = false,
+                    Message = $"Error retrieving current stock: {ex.Message}",
+                    StatusCode = 404
+                });
+            }
+        }
+
         [HttpPost]
         public async Task<ActionResult<ApiResponse>> CreateReactif([FromBody] ReactifDto reactifDto)
         {
@@ -158,40 +200,36 @@ namespace LimsReactifService.Controllers
             return NoContent();
         }
 
-        [HttpGet("{id}/stock-by-month/{year}")]
-        public async Task<ActionResult<ApiResponse>> GetStockByMonth(int id, int year)
-        {
-            var stockByMonth = await _reactifService.GetStockByMonthAsync(id, year);
-            return Ok(new ApiResponse
-            {
-                Data = stockByMonth,
-                ViewBag = null,
-                IsSuccess = true,
-                Message = "Stock by month retrieved successfully.",
-                StatusCode = 200
-            });
-        }
-
         [HttpPost("reste-stock")]
-        public async Task<ActionResult<ApiResponse>> GetResteStock([FromBody] ResteStockDto resteStockDto)
+        public async Task<ActionResult<ApiResponse>> GetResteStock([FromBody] ResteStockDto request)
         {
-            var resteStock = await _reactifService.GetResteStockAsync(resteStockDto);
-            try{
+            try
+            {
+                var resteStock = await _reactifService.GetResteStockAsync(request);
+                var responseDto = new ResteStockDto
+                {
+                    IdReactif = request.IdReactif,
+                    DateParam = request.DateParam,
+                    Quantite = resteStock.Quantite,
+                    Unite = resteStock.Unite
+                };
                 return Ok(new ApiResponse
                 {
-                    Data = resteStock,
+                    Data = responseDto,
                     ViewBag = null,
                     IsSuccess = true,
+                    Message = "Reste stock retrieved successfully.",
+                    StatusCode = 200
                 });
             }
-            catch(ArgumentException ex)
+            catch (Exception ex)
             {
                 return BadRequest(new ApiResponse
                 {
                     Data = null,
                     ViewBag = null,
                     IsSuccess = false,
-                    Message = ex.Message,
+                    Message = $"Error retrieving reste stock: {ex.Message}",
                     StatusCode = 400
                 });
             }
