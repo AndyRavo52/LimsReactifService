@@ -158,20 +158,6 @@ namespace LimsReactifService.Controllers
             return NoContent();
         }
 
-        [HttpGet("{id}/stock-by-month/{year}")]
-        public async Task<ActionResult<ApiResponse>> GetStockByMonth(int id, int year)
-        {
-            var stockByMonth = await _reactifService.GetStockByMonthAsync(id, year);
-            return Ok(new ApiResponse
-            {
-                Data = stockByMonth,
-                ViewBag = null,
-                IsSuccess = true,
-                Message = "Stock by month retrieved successfully.",
-                StatusCode = 200
-            });
-        }
-
         [HttpPost("reste-stock")]
         public async Task<ActionResult<ApiResponse>> GetResteStock([FromBody] ResteStockDto resteStockDto)
         {
