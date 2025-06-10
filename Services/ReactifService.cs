@@ -7,6 +7,7 @@ using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 namespace LimsReactifService.Services
 {
@@ -239,10 +240,10 @@ namespace LimsReactifService.Services
         }
         public async Task<ResteStock> GetResteStockAsync(ResteStockDto resteStockDto)
         {
+            ResteStock result = new ResteStock();
             using (var command = _context.Database.GetDbConnection().CreateCommand())
             {
                 command.CommandText = "CALL GetResteStockReactif(@inputDate, @id_smthng)";
-                command.CommandType = System.Data.CommandType.Text;
 
                 var dateParam = new MySqlParameter("@inputDate", MySqlDbType.DateTime) { Value = resteStockDto.DateParam };
                 var idParam = new MySqlParameter("@id_smthng", MySqlDbType.Int32) { Value = resteStockDto.IdReactif };
@@ -254,13 +255,12 @@ namespace LimsReactifService.Services
                 {
                     if (await reader.ReadAsync())
                     {
-                        // Map your ResteStock here manually
                         var resteStock = new ResteStock
                         {
                             Quantite = reader.GetDouble(0),
                             Unite = reader.GetString(1)
                         };
-                        return resteStock;
+                        result = resteStock;
                     }
                     else
                     {
@@ -269,6 +269,7 @@ namespace LimsReactifService.Services
                 }
             }
 
+            return result;
         }
     }
 }
