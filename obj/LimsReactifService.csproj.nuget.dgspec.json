@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.net\\LimsReactifService\\LimsReactifService.csproj": {}
+    "/home/miaro/ASA/OMNIS/LIMS/PROJECT/LimsReactifService/LimsReactifService.csproj": {}
   },
   "projects": {
-    "D:\\.net\\LimsReactifService\\LimsReactifService.csproj": {
+    "/home/miaro/ASA/OMNIS/LIMS/PROJECT/LimsReactifService/LimsReactifService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.net\\LimsReactifService\\LimsReactifService.csproj",
+        "projectUniqueName": "/home/miaro/ASA/OMNIS/LIMS/PROJECT/LimsReactifService/LimsReactifService.csproj",
         "projectName": "LimsReactifService",
-        "projectPath": "D:\\.net\\LimsReactifService\\LimsReactifService.csproj",
-        "packagesPath": "C:\\Users\\ander\\.nuget\\packages\\",
-        "outputPath": "D:\\.net\\LimsReactifService\\obj\\",
+        "projectPath": "/home/miaro/ASA/OMNIS/LIMS/PROJECT/LimsReactifService/LimsReactifService.csproj",
+        "packagesPath": "/home/miaro/.nuget/packages/",
+        "outputPath": "/home/miaro/ASA/OMNIS/LIMS/PROJECT/LimsReactifService/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ander\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/miaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -82,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
