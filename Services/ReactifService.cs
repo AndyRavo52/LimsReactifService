@@ -275,5 +275,10 @@ namespace LimsReactifService.Services
         {
             throw new NotImplementedException();
         }
+
+        public Task<ICollection<ResteStock>> GetResteStockGlobal(DateTime date)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
