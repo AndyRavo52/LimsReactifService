@@ -204,31 +204,16 @@ namespace LimsReactifService.Controllers
         public async Task<ActionResult<ApiResponse>> GetResteStock([FromBody] ResteStockDto request)
         {
 
+            var resteStock = await _reactifService.GetResteStockAsync(request);
             try
             {
-                var resteStock = await _reactifService.GetResteStockAsync(request);
-                var responseDto = new ResteStockDto
-                {
-                    IdReactif = request.IdReactif,
-                    DateParam = request.DateParam,
-                    Quantite = resteStock.Quantite,
-                    Unite = resteStock.Unite
-                };
-
-            var resteStock = await _reactifService.GetResteStockAsync(resteStockDto);
-            try
-
                 return Ok(new ApiResponse
                 {
-                    Data = responseDto,
+                    Data = resteStock,
                     ViewBag = null,
                     IsSuccess = true,
-                    Message = "Reste stock retrieved successfully.",
-                    StatusCode = 200
                 });
             }
-
-
             catch (ArgumentException ex)
             {
                 return BadRequest(new ApiResponse
